@@ -7,7 +7,7 @@ let tries = 3, range = 2, stage = 1, score = 0
 //Controller function
 const guessController = function(range){
   let value = Math.trunc(Math.random() * range + 1)
-  console.log(value)
+  // console.log(value)
   console.log(`Hi ${username}, Welcome to stage ${stage}:`)
   console.log(`In this stage, your guess range is between 1 and ${range}`)
   let guess = +prompt('What is your guess?: ')
